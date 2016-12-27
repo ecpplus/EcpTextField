@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.summary      = "Custom UITextFields"
 
   s.description  = <<-DESC
-  Custom UITextFields
+Custom UITextFields.
+- NoCaretTextField
                    DESC
 
   s.homepage     = "https://github.com/ecpplus/EcpTextField"
