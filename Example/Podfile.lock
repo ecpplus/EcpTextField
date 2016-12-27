@@ -1,0 +1,16 @@
+PODS:
+  - EcpTextField (0.0.1)
+
+DEPENDENCIES:
+  - EcpTextField (from `..`)
+
+EXTERNAL SOURCES:
+  EcpTextField:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  EcpTextField: 72ba67662fdf0584b3e5268f20493209b54305b2
+
+PODFILE CHECKSUM: 9aa2e8c9dbd2ea179cf525ca0d95a50dc277788b
+
+COCOAPODS: 1.1.1

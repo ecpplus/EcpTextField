@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798A5B5C1FC0D9A0E72940A5CD8CD8BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7C38D0200D999B197CFC66A46D906D2D /* Pods-EcpTextFieldExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0622DC7C0FF7B57B4C00A300D852111 /* Pods-EcpTextFieldExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87EDF805F365EF300765D777AF3FF872 /* NoCaretTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C7F70747C34BCEF60B8FD8FC09110 /* NoCaretTextField.swift */; settings = {COMPILER_FLAGS = "-whole-module-optimization"; }; };
+		A16E6BF68D1F32F1A8857CE21147E601 /* EcpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC540AE032000F65CFD103348439320 /* EcpTextField-dummy.m */; };
+		AC6BDE7B9778D9904270B6422B01BE80 /* Pods-EcpTextFieldExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3356DFF01A4AAFF09F03F62CE8C18C67 /* Pods-EcpTextFieldExample-dummy.m */; };
+		B23885ADB2A59852ECE6E966BB153975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F3DC1B6801F3A84EF102DF79B88CAAE7 /* EcpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D39B2D476EC7759B039B0D723373804C /* EcpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3EE786D92B37E1D238AF732D9B90157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DD5C871ADCCF1F323238DBBCC755F0;
+			remoteInfo = EcpTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028B7123A5779200F1E4CFE7967EC604 /* EcpTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EcpTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3F425D03BDB13A30FEB39CD069E677 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113FD02FD43AF43D97559B9CEF74B2E0 /* Pods-EcpTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcpTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
+		16C6A237E18312C648907E4052B191A7 /* Pods-EcpTextFieldExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EcpTextFieldExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D49070F02DAC64BEF1A8CC7FE609CE1 /* EcpTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EcpTextField.xcconfig; sourceTree = "<group>"; };
+		2D4C7F70747C34BCEF60B8FD8FC09110 /* NoCaretTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoCaretTextField.swift; sourceTree = "<group>"; };
+		3356DFF01A4AAFF09F03F62CE8C18C67 /* Pods-EcpTextFieldExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EcpTextFieldExample-dummy.m"; sourceTree = "<group>"; };
+		35FF9FEA54773962157651B136133FEA /* EcpTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EcpTextField.modulemap; sourceTree = "<group>"; };
+		5EC540AE032000F65CFD103348439320 /* EcpTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EcpTextField-dummy.m"; sourceTree = "<group>"; };
+		86D48369A25BA6C91C8ADB012570A58E /* Pods-EcpTextFieldExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EcpTextFieldExample.modulemap"; sourceTree = "<group>"; };
+		91EFE2DCF44D0096B49099E791F6469C /* Pods-EcpTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EcpTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958038E7B00D19A8071E30BDB375BF12 /* Pods-EcpTextFieldExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcpTextFieldExample-resources.sh"; sourceTree = "<group>"; };
+		B0622DC7C0FF7B57B4C00A300D852111 /* Pods-EcpTextFieldExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EcpTextFieldExample-umbrella.h"; sourceTree = "<group>"; };
+		B4B448D86A668E772DD252D11593EBB3 /* Pods-EcpTextFieldExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EcpTextFieldExample-frameworks.sh"; sourceTree = "<group>"; };
+		C357EAC43AB3104F0384759067453A55 /* Pods-EcpTextFieldExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EcpTextFieldExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D39B2D476EC7759B039B0D723373804C /* EcpTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EcpTextField-umbrella.h"; sourceTree = "<group>"; };
+		F6178F449FCA96AB1FDF72553B971CAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81F0976ED3D68D2E449A3F6CAE7D4E9 /* Pods_EcpTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcpTextFieldExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F839550D50C17F963AAE98B0BBA6B753 /* EcpTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EcpTextField-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059DDA1A2BE95EC8029E154501C05AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798A5B5C1FC0D9A0E72940A5CD8CD8BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0978082B64F01E8FB4FDBBB85742AE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23885ADB2A59852ECE6E966BB153975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11743A7AE484B50F306A4CE78F3EEAA3 /* Pods-EcpTextFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				0D3F425D03BDB13A30FEB39CD069E677 /* Info.plist */,
+				86D48369A25BA6C91C8ADB012570A58E /* Pods-EcpTextFieldExample.modulemap */,
+				C357EAC43AB3104F0384759067453A55 /* Pods-EcpTextFieldExample-acknowledgements.markdown */,
+				16C6A237E18312C648907E4052B191A7 /* Pods-EcpTextFieldExample-acknowledgements.plist */,
+				3356DFF01A4AAFF09F03F62CE8C18C67 /* Pods-EcpTextFieldExample-dummy.m */,
+				B4B448D86A668E772DD252D11593EBB3 /* Pods-EcpTextFieldExample-frameworks.sh */,
+				958038E7B00D19A8071E30BDB375BF12 /* Pods-EcpTextFieldExample-resources.sh */,
+				B0622DC7C0FF7B57B4C00A300D852111 /* Pods-EcpTextFieldExample-umbrella.h */,
+				91EFE2DCF44D0096B49099E791F6469C /* Pods-EcpTextFieldExample.debug.xcconfig */,
+				113FD02FD43AF43D97559B9CEF74B2E0 /* Pods-EcpTextFieldExample.release.xcconfig */,
+			);
+			name = "Pods-EcpTextFieldExample";
+			path = "Target Support Files/Pods-EcpTextFieldExample";
+			sourceTree = "<group>";
+		};
+		2B4BF44C850E73ED3E2E4D2F4945C94F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9136931B9D6087E207DAEE7D2ACEBDC6 /* ios */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50E418D1D24EBA62E32CE5540E907610 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84A69B8E0957C3027F66C9B191578A6C /* EcpTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57CDA482E3A6F064CBB012EA88DB2793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028B7123A5779200F1E4CFE7967EC604 /* EcpTextField.framework */,
+				F81F0976ED3D68D2E449A3F6CAE7D4E9 /* Pods_EcpTextFieldExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				50E418D1D24EBA62E32CE5540E907610 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				57CDA482E3A6F064CBB012EA88DB2793 /* Products */,
+				D9914486411EAA943D9519CAAA182CDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A69B8E0957C3027F66C9B191578A6C /* EcpTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2B4BF44C850E73ED3E2E4D2F4945C94F /* Classes */,
+				FE105B0A7070DEF9D95F3C05ED4DF702 /* Support Files */,
+			);
+			name = EcpTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9136931B9D6087E207DAEE7D2ACEBDC6 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				2D4C7F70747C34BCEF60B8FD8FC09110 /* NoCaretTextField.swift */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9914486411EAA943D9519CAAA182CDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11743A7AE484B50F306A4CE78F3EEAA3 /* Pods-EcpTextFieldExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE105B0A7070DEF9D95F3C05ED4DF702 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FF9FEA54773962157651B136133FEA /* EcpTextField.modulemap */,
+				1D49070F02DAC64BEF1A8CC7FE609CE1 /* EcpTextField.xcconfig */,
+				5EC540AE032000F65CFD103348439320 /* EcpTextField-dummy.m */,
+				F839550D50C17F963AAE98B0BBA6B753 /* EcpTextField-prefix.pch */,
+				D39B2D476EC7759B039B0D723373804C /* EcpTextField-umbrella.h */,
+				F6178F449FCA96AB1FDF72553B971CAA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EcpTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C291A7B2566C41CABB56609AA67BC4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DC1B6801F3A84EF102DF79B88CAAE7 /* EcpTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D9F28EA7EDCEF8AF7738038CA30AA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C38D0200D999B197CFC66A46D906D2D /* Pods-EcpTextFieldExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06DD5C871ADCCF1F323238DBBCC755F0 /* EcpTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BEA7EDFC5E60200BF4BD9377E508EC /* Build configuration list for PBXNativeTarget "EcpTextField" */;
+			buildPhases = (
+				EC6D7DD2EACE190C9D0A3D1E79BED2B6 /* Sources */,
+				059DDA1A2BE95EC8029E154501C05AAB /* Frameworks */,
+				5C291A7B2566C41CABB56609AA67BC4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcpTextField;
+			productName = EcpTextField;
+			productReference = 028B7123A5779200F1E4CFE7967EC604 /* EcpTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9A802484DCFEEAB43B2DA3D2C731BB2 /* Pods-EcpTextFieldExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070185DA9707D78FFD4D8D0BE9A36D7F /* Build configuration list for PBXNativeTarget "Pods-EcpTextFieldExample" */;
+			buildPhases = (
+				1B015B276E5C0E94C82EDFB66F30C432 /* Sources */,
+				0978082B64F01E8FB4FDBBB85742AE43 /* Frameworks */,
+				A0D9F28EA7EDCEF8AF7738038CA30AA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA2944E9D4C7A8FA2134EA810D787FD /* PBXTargetDependency */,
+			);
+			name = "Pods-EcpTextFieldExample";
+			productName = "Pods-EcpTextFieldExample";
+			productReference = F81F0976ED3D68D2E449A3F6CAE7D4E9 /* Pods_EcpTextFieldExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57CDA482E3A6F064CBB012EA88DB2793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DD5C871ADCCF1F323238DBBCC755F0 /* EcpTextField */,
+				E9A802484DCFEEAB43B2DA3D2C731BB2 /* Pods-EcpTextFieldExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B015B276E5C0E94C82EDFB66F30C432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6BDE7B9778D9904270B6422B01BE80 /* Pods-EcpTextFieldExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6D7DD2EACE190C9D0A3D1E79BED2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16E6BF68D1F32F1A8857CE21147E601 /* EcpTextField-dummy.m in Sources */,
+				87EDF805F365EF300765D777AF3FF872 /* NoCaretTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA2944E9D4C7A8FA2134EA810D787FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EcpTextField;
+			target = 06DD5C871ADCCF1F323238DBBCC755F0 /* EcpTextField */;
+			targetProxy = C3EE786D92B37E1D238AF732D9B90157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53294396D4F1ABE878951A92FD8FAF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113FD02FD43AF43D97559B9CEF74B2E0 /* Pods-EcpTextFieldExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EcpTextFieldExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcpTextFieldExample/Pods-EcpTextFieldExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EcpTextFieldExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69DEB404A025810BFC8D1D83138E5074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EFE2DCF44D0096B49099E791F6469C /* Pods-EcpTextFieldExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EcpTextFieldExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EcpTextFieldExample/Pods-EcpTextFieldExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EcpTextFieldExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBF503B49D8DEE7C95808CC381E7C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D49070F02DAC64BEF1A8CC7FE609CE1 /* EcpTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EcpTextField/EcpTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EcpTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EcpTextField/EcpTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EcpTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE9A92B94077AEBCD122632003E710CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D49070F02DAC64BEF1A8CC7FE609CE1 /* EcpTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EcpTextField/EcpTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EcpTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EcpTextField/EcpTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EcpTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070185DA9707D78FFD4D8D0BE9A36D7F /* Build configuration list for PBXNativeTarget "Pods-EcpTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DEB404A025810BFC8D1D83138E5074 /* Debug */,
+				53294396D4F1ABE878951A92FD8FAF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BEA7EDFC5E60200BF4BD9377E508EC /* Build configuration list for PBXNativeTarget "EcpTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9A92B94077AEBCD122632003E710CE /* Debug */,
+				CDBF503B49D8DEE7C95808CC381E7C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

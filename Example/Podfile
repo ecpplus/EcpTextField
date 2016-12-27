@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+target 'EcpTextFieldExample' do
+  use_frameworks!
+
+  # Pods for EcpWebViewExample
+  pod 'EcpTextField', path: '..'
+end
