@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "EcpTextField"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Custom UITextFields"
 
   s.description  = <<-DESC
 Custom UITextFields.
 - NoCaretTextField
+- NoBorderTextView
                    DESC
 
   s.homepage     = "https://github.com/ecpplus/EcpTextField"
